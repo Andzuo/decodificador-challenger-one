@@ -111,6 +111,7 @@ function copyTextToClipboard(text) {
 
 function showBtnCopy() {
     botaoCopiar.style.display = "block";
+    
 }
 function hideButton () {
     botaoCopiar.style.display = "none";
