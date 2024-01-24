@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Challenger-Encriptador One|Alura</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo" href="https://alura.com.br/">
+            <img src="/assets/img/logoAlura.png" alt="Logo alura">
+        </a>
+    </header>
+    <main class="container">
+        <section class="container__text">
+            <textarea class="container__text-area" placeholder="Digite seu texto" id="textarea" cols="30" rows="10"></textarea>
+            <p class="container__notice">Apenas letras minúsculas e sem acentos.</p>
+            <div class="buttons">
+                <button onclick="btnEncript()" class="btn encrypt">Criptografar</button>
+                <button onclick="bntDesencript()" class="btn decrypt">Descriptografar</button>
+            </div>
+        </section>
+        <section class="mensagem-area">
+            <div class="mensagem-area__cards" id="cards">
+                <p></p>
+            </div>
+                <img class="mensagem-area__img" src="/assets/img/Img-not-found.png" alt="nenhuma mensagem encontrada" id="img-mensagem">
+                <div class="mensagem-area__txt">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+                <button onclick="copiarEremoverCards()" class="btn copy" id="copy">Copiar</button>
+        </section>
+    </main>
+</body>
+<script src="/script.js"></script>
+</html>

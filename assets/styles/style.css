@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --btn-primary: #0A3871;
+    --btn-secondary: #D8DFE8;
+    --bg-color: #E5E5E5;
+    --notice-color: #F1F1F1;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+body {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 40px 40px 0;
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    margin-left: 100px;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.container__text-area {
+    background-color: var(--bg-color);
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color: var(--btn-primary);
+    text-transform: lowercase;
+    width: 650px;
+}
+.container__text{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--btn-primary);
+    border-radius: 24px;
+    width: 328px;
+    padding: 24px;
+    font-size: 1rem;
+    color: var(--btn-secondary);
+}
+.decrypt {
+    display: flex;
+    background-color: var(--btn-secondary);
+    color: var(--btn-primary);
+    border: 1px solid var(--btn-primary);
+}
+
+.mensagem-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 700px;
+    margin-left: 30%;
+    background-color: var(--notice-color);
+    border-radius: 32px;
+}
+
+.mensagem-area__txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+}
+
+h1 .mensagem-area__txt {
+    font-weight: 600;
+}
+
+.mensagem-area__cards {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    width: 80%;
+    background-color: var(--notice-color);
+    padding: 24px 0 24px 0;
+    margin-top: 30px;
+}
+.mensagem-area span {
+    margin-left: 10px;
+}
+
+.copy {
+    width: 80%;
+    margin-bottom: 30px;
+}
