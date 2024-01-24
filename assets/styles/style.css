@@ -93,10 +93,12 @@ body {
     justify-content: center;
     width: 300px;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 h1 .mensagem-area__txt {
     font-weight: 600;
+
 }
 
 .mensagem-area__cards {
@@ -117,4 +119,5 @@ h1 .mensagem-area__txt {
 .copy {
     width: 80%;
     margin-bottom: 30px;
+    display: none;
 }
