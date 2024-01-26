@@ -41,7 +41,7 @@ function bntDecrypt() {
 
     if (stringEncrypted) {
         const resultDecrypted = decrypt(stringEncrypted, matiz);
-        text.value = resultDecrypted;
+        text.value = '';
         console.log(resultDecrypted);
     } else {
         console.error('A string criptografada está indefinida.');
